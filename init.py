@@ -14,9 +14,9 @@ def go(message):
     bot.reply_to(message, 'Сам пидор')
 
 
-@bot.message_handler(commands=['start'])
-def send_welcome(message):
-    bot.reply_to(message, "Ты че дурак? Зачем ты сюда лезешь?")
+@bot.message_handler(commands=['info'])
+def give_info(message):
+    bot.send_message(message.chat, "Я PolyBot")
 
 
 @bot.message_handler(commands=['help'])
