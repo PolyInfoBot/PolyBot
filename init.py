@@ -20,7 +20,7 @@ def go(message):
 
 @bot.message_handler(commands=['info'])
 def give_info(message):
-    bot.send_message(message.chat, "Я PolyBot")
+    bot.send_message(message, "Я PolyBot")
 
 
 @bot.message_handler(commands=['help'])
