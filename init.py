@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/home/pi/PythonBot/bin/python3
 # coding: utf-8
 
 
